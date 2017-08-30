@@ -3,3 +3,39 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.navbar {
+  text-align: left;
+}
+nav, footer {
+  width: 60%;
+  padding: 20px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+.parent {
+  width: 30%;
+  margin: auto;
+}
+
+.message {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submitwrap {
+  text-align: left;
+}
+
+.submit {
+  background-color: lightblue;
+  border: none;
+  font-size: large;
+  color: white;
+}
+
+#display {
+  border: lightgray .5px solid;
+  text-align: left;
+}

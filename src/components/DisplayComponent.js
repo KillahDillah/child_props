@@ -1,10 +1,12 @@
-
 import React, {Component} from 'react'
 
 class DisplayComponent extends Component {
   render() {
     return (
-      <div>{this.props.sayWhat}</div>
+      <div id="display">
+        <h3> States, props, children, and fun!</h3>
+        {this.props.sayWhat}
+      </div>
     );
   }
 }
